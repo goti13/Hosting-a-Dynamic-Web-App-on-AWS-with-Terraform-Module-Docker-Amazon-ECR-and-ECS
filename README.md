@@ -66,12 +66,16 @@ module "ecs" {"\n source = \"'•/modules/ecs\"\n ecr_repository_url = module.ec
 2. ﻿﻿﻿Run 'terraform init' and 'terraform apply' to deploy the ECS cluster and the web app.
 3. ﻿﻿﻿Access the web app through the public IP or DNS of the ECS service.
 4. ﻿﻿﻿﻿Document your observations and any challenges faced during the project.
+
+```
 ###################################
-IMPLEMENTATION
+PROJECT IMPLEMENTATION
 ###################################
+```
 
 # Directory Structure
 
+```
 terraform-ecs-webapp/
 ├── main.tf
 ├── variables.tf
@@ -89,6 +93,7 @@ terraform-ecs-webapp/
 │       ├── main.tf
 │       ├── variables.tf
 │       └── outputs.tf
+```
 
 
 # main.tf 
